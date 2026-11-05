@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+<rect width="1200" height="360" fill="#f8fafc"/>
+<text x="35" y="36" fill="#0f172a" font-family="Arial,sans-serif" font-size="25" font-weight="bold">RoboVision: Analytic Scene Solver + Learned Fallback</text>
+<g font-family="Arial,sans-serif" font-size="16" text-anchor="middle">
+<rect x="20" y="85" rx="12" width="190" height="90" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="115" y="119" fill="#1e40af">Input RGB +</text><text x="115" y="144" fill="#1e40af">Camera K, R, t</text>
+<rect x="260" y="85" rx="12" width="220" height="90" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+<text x="370" y="111" fill="#075985">Background mask</text><text x="370" y="134" fill="#075985">Components + colour</text><text x="370" y="156" fill="#075985">8–10 candidates</text>
+<rect x="530" y="85" rx="12" width="220" height="90" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="640" y="111" fill="#166534">Pair same colours</text><text x="640" y="134" fill="#166534">Block / bowl + order</text><text x="640" y="156" fill="#166534">Assign 6 slots</text>
+<rect x="800" y="85" rx="12" width="190" height="90" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="895" y="112" fill="#92400e">Back-project to XY</text><text x="895" y="136" fill="#92400e">Calibrate × 1.29</text><text x="895" y="158" fill="#92400e">6 pick positions</text>
+<rect x="1030" y="85" rx="12" width="155" height="90" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+<text x="1108" y="111" fill="#334155">Submission</text><text x="1108" y="134" fill="#334155">Pick from solver</text><text x="1108" y="156" fill="#334155">Place lookup</text>
+<rect x="370" y="245" rx="12" width="460" height="75" fill="#f3e8ff" stroke="#9333ea" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="600" y="270" fill="#6b21a8">Fallback when colour pairs are missing</text>
+<text x="600" y="293" fill="#6b21a8">EfficientNet-B0 → BEV heatmaps → soft-argmax</text>
+</g>
+<g stroke="#64748b" stroke-width="3" fill="none"><path d="M210 130 H252"/><path d="M480 130 H522"/><path d="M750 130 H792"/><path d="M990 130 H1022"/></g>
+<g fill="#64748b"><path d="M252 130 l-9 -6 v12z"/><path d="M522 130 l-9 -6 v12z"/><path d="M792 130 l-9 -6 v12z"/><path d="M1022 130 l-9 -6 v12z"/></g>
+<g stroke="#9333ea" fill="none" stroke-width="2.5" stroke-dasharray="6 5"><path d="M640 175 V245"/><path d="M830 283 H1108 V175"/></g>
+<text x="650" y="208" fill="#7e22ce" font-family="Arial,sans-serif" font-size="13">missing pairs</text>
+</svg>
