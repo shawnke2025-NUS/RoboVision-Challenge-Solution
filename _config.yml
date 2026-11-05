@@ -1,0 +1,9 @@
+title: RoboVision · Kaggle Solution Notes
+description: Scene parsing, camera geometry and learned fallback
+lang: zh-CN
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+url: "https://shawnke2025-nus.github.io"
+baseurl: "/RoboVision-Challenge-Solution"
