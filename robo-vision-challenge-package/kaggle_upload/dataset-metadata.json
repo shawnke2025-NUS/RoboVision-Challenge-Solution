@@ -1,0 +1,7 @@
+{
+  "title": "RoboVision 3.0 solution package",
+  "id": "shawnjuyangke/robo-vision-solution-package",
+  "subtitle": "README, deterministic solver notebook and LB 0.860 submission",
+  "description": "Solution for RoboVision Challenge - DataHack 3.0. Actions are x_pick,y_pick,x_place,y_place; metric is exp(-(d/0.05)^2) per action. Place coordinates are a per-(task,step) lookup (exact). Pick coordinates come from a deterministic scene parser: 3 colour pairs x 2 shapes, intensity-sorted, back-projected onto the table plane; ImageNet EfficientNet-B0 with mirror augmentation is the fallback. Public LB 0.86025.",
+  "licenses": [ { "name": "CC0-1.0" } ]
+}

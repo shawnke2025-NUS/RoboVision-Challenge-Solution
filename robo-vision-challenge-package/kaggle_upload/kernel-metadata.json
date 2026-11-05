@@ -1,0 +1,15 @@
+{
+  "id": "shawnjuyangke/robovision-3-0-deterministic-solver",
+  "title": "RoboVision 3.0 Deterministic Solver",
+  "code_file": "robo_vision_solver_v3.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": ["robo-vision-challenge-data-hack-3-0"],
+  "kernel_sources": [],
+  "model_sources": []
+}
